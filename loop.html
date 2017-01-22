@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loop - My Family</title>
+</head>
+<body>
+
+<p id="display"></p>
+
+<script>
+	// This is an array with my family names in it.
+	var family = ["Jonathan","Charity","Michael","Kayden","Landon"];
+    // This for loop, loops through each index one at a time and adds
+    //    the last name from within the curly brackets.
+	for (i = 0; i < family.length; i++) {
+		document.getElementById("display").innerHTML +=
+			"<p>" + family[i] + " Blaine" + "</p>";
+	}
+// (c) by: Jonathan Blaine
+</script>
+</body>
+</html>
